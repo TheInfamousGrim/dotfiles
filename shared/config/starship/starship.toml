@@ -1,0 +1,161 @@
+# Starship Prompt Configuration
+# Vaporwave-inspired theme
+
+format = """
+[╭─](bg:#1a0b2e fg:#ff00ff)\
+$os\
+$username\
+[▓](fg:#261447)\
+$directory\
+[▓](fg:#261447)\
+$git_branch\
+$git_state\
+$git_status\
+[▓](fg:#261447)\
+$node\
+$pnpm\
+$golang\
+$rust\
+$python\
+[▓](fg:#261447)\
+$docker\
+$kubernetes\
+$terraform\
+$aws\
+$fill\
+[▓](fg:#261447)\
+$time\
+[─](bg:#1a0b2e fg:#ff00ff)\
+$line_break\
+[╰─](fg:#ff00ff)\
+$character"""
+
+# Right side
+right_format = """
+$status"""
+
+# ---- Palette ----
+palette = "vaporwave"
+
+[palettes.vaporwave]
+purple = "#b892ff"
+magenta = "#ff00ff"
+pink = "#ff6b9d"
+cyan = "#00f0ff"
+green = "#39ff14"
+yellow = "#f9f871"
+orange = "#ff8c42"
+red = "#ff2a6d"
+dark = "#0d0221"
+surface = "#1a0b2e"
+elevated = "#261447"
+muted = "#7a5c9c"
+white = "#f8e1f4"
+
+# ---- Modules ----
+
+[os]
+disabled = false
+style = "bg:#1a0b2e fg:#ff00ff"
+
+[os.symbols]
+Macos = " "
+Linux = " "
+Windows = " "
+
+[username]
+show_always = true
+style_user = "bg:#1a0b2e fg:#b892ff"
+style_root = "bg:#1a0b2e fg:#ff2a6d"
+format = "[ $user ]($style)"
+
+[directory]
+style = "bg:#1a0b2e fg:#f8e1f4"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+home_symbol = "~"
+repo_root_format = "[ $before_root ](fg:#7a5c9c)[ $repo_root:(${style}) ]($style)"
+
+[git_branch]
+style = "bg:#1a0b2e fg:#ff00ff"
+format = "[$symbol$branch]($style)"
+symbol = " "
+
+[git_status]
+style = "bg:#1a0b2e fg:#b892ff"
+format = '[$all_status$ahead_behind]($style)'
+conflicted = "🏳"
+up_to_date = ""
+untracked = " "
+ahead = "⇡\${count}"
+diverged = "⇕⇡\${ahead_count}⇣\${behind_count}"
+behind = "⇣\${count}"
+stashed = " "
+modified = " "
+staged = ''
+renamed = " "
+deleted = " "
+
+[node_version]
+style = "bg:#1a0b2e fg:#39ff14"
+format = "[ $symbol$version ]($style)"
+symbol = " "
+detect_files = ["package.json", ".node-version"]
+detect_folders = ["node_modules"]
+
+[pnpm]
+style = "bg:#1a0b2e fg:#ff8c42"
+format = "[  $version ]($style)"
+
+[golang]
+style = "bg:#1a0b2e fg:#00f0ff"
+format = "[  $version ]($style)"
+symbol = " "
+
+[rust]
+style = "bg:#1a0b2e fg:#ff8c42"
+format = "[  $version ]($style)"
+
+[python]
+style = "bg:#1a0b2e fg:#f9f871"
+format = "[  $version ]($style)"
+
+[docker]
+style = "bg:#1a0b2e fg:#00f0ff"
+format = "[  $context ]($style)"
+
+[kubernetes]
+style = "bg:#1a0b2e fg:#bd00ff"
+format = "[ 󱃾 $context\($namespace\) ]($style)"
+disabled = false
+
+[terraform]
+style = "bg:#1a0b2e fg:#7a5c9c"
+format = "[  $workspace ]($style)"
+
+[aws]
+style = "bg:#1a0b2e fg:#ff8c42"
+format = "[  $profile\($region\) ]($style)"
+disabled = false
+
+[status]
+style = "fg:#ff2a6d"
+format = "[$status]($style)"
+disabled = false
+
+[fill]
+style = "bg:#1a0b2e fg:#261447"
+
+[time]
+style = "bg:#1a0b2e fg:#7a5c9c"
+format = "[ $time ]($style)"
+time_format = "%H:%M"
+disabled = false
+
+[character]
+success_symbol = "[](fg:#ff00ff)"
+error_symbol = "[](fg:#ff2a6d)"
+vimcmd_symbol = "[](fg:#00f0ff)"
+vimcmdvisual_symbol = "[](fg:#f9f871)"
+vimcmdreplace_symbol = "[](fg:#ff8c42)"

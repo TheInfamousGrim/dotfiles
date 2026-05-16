@@ -1,0 +1,44 @@
+# Vaporwave Sunset — Ghostty Color Theme
+# Author: George Fincher
+# Inspired by vaporwave aesthetics with deep purple background and neon accents
+
+background = #0d0221
+foreground = #f8e1f4
+
+cursor-color = #ff00ff
+cursor-text = #0d0221
+
+selection-foreground = #0d0221
+selection-background = #ff00ff33
+
+# Black
+palette = 0=#1a0b2e
+palette = 8=#261447
+
+# Red
+palette = 1=#ff2a6d
+palette = 9=#ff6b9d
+
+# Green
+palette = 2=#39ff14
+palette = 10=#59d499
+
+# Yellow
+palette = 3=#f9f871
+palette = 11=#ffc2e0
+
+# Blue
+palette = 4=#00f0ff
+palette = 12=#56c2ff
+
+# Magenta
+palette = 5=#ff00ff
+palette = 13=#bd00ff
+
+# Cyan
+palette = 6=#00f0ff
+palette = 14=#56c2ff
+
+# White
+palette = 7=#f8e1f4
+palette = 15=#ffffff

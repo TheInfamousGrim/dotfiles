@@ -1,0 +1,31 @@
+[core]
+	editor = zed --wait
+	excludesfile = ~/.gitignore_global
+
+[user]
+	email = george@grimfunky.dev
+
+[init]
+	defaultBranch = main
+
+[color]
+	ui = auto
+
+[push]
+	autoSetupRemote = true
+	default = current
+
+[fetch]
+	prune = true
+
+[pull]
+	rebase = true
+
+[rebase]
+	autoStash = true
+
+[merge]
+	conflictstyle = diff3
+
+[credential]
+	helper = osxkeychain

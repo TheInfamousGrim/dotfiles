@@ -1,0 +1,12 @@
+# Raycast Extensions
+# Install via Raycast Store or use `raycast://extensions/<author>/<name>`
+#
+# Currently installed:
+# - Spotify Player (spotify-player)
+# - Notion (notion)
+# - Port Manager (port-manager)
+# - GitHub (github)
+# - SVGL (svgl)
+# - VS Code (visual-studio-code)
+# - Kill Process (kill-process)
+# - Google Chrome (google-chrome)

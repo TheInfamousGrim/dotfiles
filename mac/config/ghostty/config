@@ -1,0 +1,33 @@
+# =============================================================================
+# Ghostty Terminal Configuration
+# =============================================================================
+# https://ghostty.org/docs/config
+
+# ---- Theme ----
+theme = vaporwave-sunset
+
+# ---- Font ----
+font-family = FiraCode Nerd Font Mono
+font-size = 20
+
+# ---- Window ----
+background-opacity = 0.95
+window-padding-x = 8
+window-padding-y = 4
+window-decoration = auto
+macos-titlebar-style = tabs
+macos-non-native-fullscreen = true
+
+# ---- Shell ----
+shell-integration = zsh
+copy-on-select = clipboard
+
+# ---- Cursor ----
+cursor-style = bar
+cursor-style-blink = true
+
+# ---- Mouse ----
+mouse-hide-while-typing = true
+
+# ---- Scrollback ----
+scrollback-limit = 10000
