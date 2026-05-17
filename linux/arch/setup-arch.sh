@@ -49,6 +49,7 @@ AUR_PACKAGES=(
   cloudflared
   shopify-cli
   ngrok
+  yaak-bin
   visual-studio-code-bin
   raycast
 )

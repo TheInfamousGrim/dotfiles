@@ -42,6 +42,7 @@ cask "spotify"
 cask "notion"
 cask "linear"
 cask "tableplus"
+cask "yaak"
 cask "postman"
 cask "protonvpn"
 

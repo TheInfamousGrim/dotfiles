@@ -82,10 +82,10 @@ dotfiles/
 - **Shell:** ZSH with zsh-vi-mode, Starship prompt
 - **Editors:** Zed (with Vaporwave Sunset theme + DeepSeek agent config)
 - **Terminal:** Ghostty (with Vaporwave-inspired config)
-- **CLI tools:** git, fzf, ripgrep, zoxide, bat, eza, fd, delta, lazygit
+- **CLI tools:** git, fzf, ripgrep, zoxide
 - **Dev tools:** Node.js, pnpm, Go, Rust, Docker, kubectl, OpenTofu
 - **Cloud:** Azure CLI, Cloudflare CLI, Shopify CLI, Fly.io CLI, Railway CLI
-- **Apps:** Raycast, Chrome, Discord, Slack, Spotify, Notion, Linear, TablePlus
+- **Apps:** Raycast, Chrome, Discord, Slack, Spotify, Notion, Linear, TablePlus, Yaak
 - **PNPM globals:** @hubspot/cli, @shopify/cli, turbo, vercel, wrangler
 
 ### Arch Linux (`setup-arch.sh`)
@@ -98,7 +98,7 @@ dotfiles/
 
 ### Windows (`setup-windows.ps1`)
 - **Package manager:** winget
-- For WSL usage with zsh
+- **Tools:** Windows Terminal, Git, PowerShell, Node.js, pnpm, Rust, Docker, Zed, fzf, Starship, zoxide, ripgrep, Yaak
 
 ## Themes Included
 

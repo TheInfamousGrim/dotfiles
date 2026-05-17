@@ -72,6 +72,19 @@ if ! command -v ghostty &>/dev/null; then
   rm -rf /tmp/ghostty
 fi
 
+# ---- Install Yaak ----
+echo ""
+echo "📦 Installing Yaak..."
+if ! command -v yaak &>/dev/null; then
+  curl -Lo /tmp/yaak.deb "https://yaak.app/api/download/linux"
+  sudo dpkg -i /tmp/yaak.deb 2>/dev/null || {
+    # If dpkg fails due to deps, try fixing
+    sudo apt install -f -y
+    sudo dpkg -i /tmp/yaak.deb
+  }
+  rm /tmp/yaak.deb
+fi
+
 # ---- Rust ----
 echo ""
 echo "⚙️  Setting up Rust..."

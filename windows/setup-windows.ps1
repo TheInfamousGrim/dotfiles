@@ -19,10 +19,6 @@ $WingetPackages = @(
     "Microsoft.WindowsTerminal"
     "Git.Git"
     "Microsoft.PowerShell"
-    "sharkdp.fd"
-    "BurntSushi.ripgrep.MSVC"
-    "dandavison.delta"
-    "eza-community.eza"
     "junegunn.fzf"
     "Starship.Starship"
     "ajeetdsouza.zoxide"
@@ -39,6 +35,7 @@ $WingetPackages = @(
     "SlackTechnologies.Slack"
     "Spotify.Spotify"
     "Notion.Notion"
+    "Yaak.app"
 )
 
 foreach ($pkg in $WingetPackages) {
