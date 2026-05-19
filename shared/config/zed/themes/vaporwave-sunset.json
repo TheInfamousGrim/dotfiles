@@ -22,7 +22,7 @@
         "border.selected": "#00f0ff",
         "border.transparent": "#00000000",
         "border.variant": "#261447",
-        "element.background": "#1a0b2e",
+        "element.background": "#1a0b2e88",
         "element.active": "#ff00ff33",
         "element.disabled": "#1a0b2e",
         "element.hover": "#261447",
@@ -76,10 +76,13 @@
         "scrollbar.track.border": "#261447",
         "scrollbar_thumb.background": "#ff00ff66",
         "drop_target.background": "#00f0ff22",
+        "error": "#ff2a6d88",
+        "error.background": "#ff2a6d33",
+        "error.border": "#ff2a6d88",
         "status": {
-          "error": "#ff2a6d",
-          "error.background": "#ff2a6d22",
-          "error.border": "#ff2a6d",
+          "error": "#ff2a6d88",
+          "error.background": "#ff2a6d33",
+          "error.border": "#ff2a6d88",
           "warning": "#ff8c42",
           "warning.background": "#ff8c4222",
           "warning.border": "#ff8c42",
@@ -203,14 +206,46 @@
           "#ff00ff"
         ],
         "players": [
-          { "cursor": "#ff00ff", "selection": "#ff00ff33", "background": "#ff00ff22" },
-          { "cursor": "#00f0ff", "selection": "#00f0ff33", "background": "#00f0ff22" },
-          { "cursor": "#39ff14", "selection": "#39ff1433", "background": "#39ff1422" },
-          { "cursor": "#ff2a6d", "selection": "#ff2a6d33", "background": "#ff2a6d22" },
-          { "cursor": "#f9f871", "selection": "#f9f87133", "background": "#f9f87122" },
-          { "cursor": "#bd00ff", "selection": "#bd00ff33", "background": "#bd00ff22" },
-          { "cursor": "#ff8c42", "selection": "#ff8c4233", "background": "#ff8c4222" },
-          { "cursor": "#56c2ff", "selection": "#56c2ff33", "background": "#56c2ff22" }
+          {
+            "cursor": "#ff00ff",
+            "selection": "#ff00ff33",
+            "background": "#ff00ff22"
+          },
+          {
+            "cursor": "#00f0ff",
+            "selection": "#00f0ff33",
+            "background": "#00f0ff22"
+          },
+          {
+            "cursor": "#39ff14",
+            "selection": "#39ff1433",
+            "background": "#39ff1422"
+          },
+          {
+            "cursor": "#ff2a6d",
+            "selection": "#ff2a6d33",
+            "background": "#ff2a6d22"
+          },
+          {
+            "cursor": "#f9f871",
+            "selection": "#f9f87133",
+            "background": "#f9f87122"
+          },
+          {
+            "cursor": "#bd00ff",
+            "selection": "#bd00ff33",
+            "background": "#bd00ff22"
+          },
+          {
+            "cursor": "#ff8c42",
+            "selection": "#ff8c4233",
+            "background": "#ff8c4222"
+          },
+          {
+            "cursor": "#56c2ff",
+            "selection": "#56c2ff33",
+            "background": "#56c2ff22"
+          }
         ]
       }
     }
