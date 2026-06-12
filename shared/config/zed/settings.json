@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "soft_wrap": "editor_width",
   "cli_default_open_behavior": "new_window",
   "autosave": "on_focus_change",
   "project_panel": {
@@ -25,6 +26,12 @@
     "dock": "right",
     "tool_permissions": {
       "tools": {
+        "write_file": {
+          "default": "allow"
+        },
+        "create_directory": {
+          "default": "allow"
+        },
         "edit_file": {
           "default": "allow"
         },
@@ -61,9 +68,9 @@
       }
     },
     "default_model": {
-      "effort": "medium",
-      "provider": "zed.dev",
-      "model": "gpt-5.5",
+      "effort": "high",
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash",
       "enable_thinking": true
     },
     "favorite_models": [
